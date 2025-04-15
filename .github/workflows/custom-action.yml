@@ -1,0 +1,8 @@
+name: custom-action
+
+on: [push]
+
+jobs:
+  runs-on: alpine
+  steps:
+    - uses: 007coldhands/actions_practice_05_challenge
