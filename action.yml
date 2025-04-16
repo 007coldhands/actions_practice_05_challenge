@@ -1,0 +1,8 @@
+name: 'Does not do much 9000'
+description: 'Just useless'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'gift'
+  color: 'pink'
