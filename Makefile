@@ -1,8 +1,8 @@
 run: build
-	docker run --rm keyword-release-action
+	docker run --rm actions_practice_05_challenge
 
 build:
-	docker build --tag keyword-release-action .
+	docker build --tag actions_practice_05_challenge .
 	
 test:
 	./entrypoint.sh
